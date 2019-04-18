@@ -1,2 +1,2 @@
-# LightTunes
+# Light Tunes
 iTunes Store Replica
