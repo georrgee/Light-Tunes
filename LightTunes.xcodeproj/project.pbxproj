@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36BCE4382267CC410046A074 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36BCE4372267CC410046A074 /* SearchResultCell.xib */; };
+		36BCE43A2267D19D0046A074 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BCE4392267D19D0046A074 /* SearchResultCell.swift */; };
+		36BCE43C22680B8A0046A074 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36BCE43B22680B8A0046A074 /* NothingFoundCell.xib */; };
 		36EE62D62265534D00F94070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE62D52265534D00F94070 /* AppDelegate.swift */; };
 		36EE62D82265534D00F94070 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EE62D72265534D00F94070 /* SearchViewController.swift */; };
 		36EE62DB2265534D00F94070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EE62D92265534D00F94070 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36BCE4372267CC410046A074 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		36BCE4392267D19D0046A074 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		36BCE43B22680B8A0046A074 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 		36EE62D22265534D00F94070 /* LightTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36EE62D52265534D00F94070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36EE62D72265534D00F94070 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				36EE62DC2265534F00F94070 /* Assets.xcassets */,
 				36EE62DE2265534F00F94070 /* LaunchScreen.storyboard */,
 				36EE62E12265534F00F94070 /* Info.plist */,
+				36BCE4372267CC410046A074 /* SearchResultCell.xib */,
+				36BCE4392267D19D0046A074 /* SearchResultCell.swift */,
+				36BCE43B22680B8A0046A074 /* NothingFoundCell.xib */,
 			);
 			path = LightTunes;
 			sourceTree = "<group>";
@@ -127,6 +136,8 @@
 			files = (
 				36EE62E02265534F00F94070 /* LaunchScreen.storyboard in Resources */,
 				36EE62DD2265534F00F94070 /* Assets.xcassets in Resources */,
+				36BCE4382267CC410046A074 /* SearchResultCell.xib in Resources */,
+				36BCE43C22680B8A0046A074 /* NothingFoundCell.xib in Resources */,
 				36EE62DB2265534D00F94070 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +151,7 @@
 			files = (
 				36EE62D82265534D00F94070 /* SearchViewController.swift in Sources */,
 				36EE62E82265609500F94070 /* SearchResult.swift in Sources */,
+				36BCE43A2267D19D0046A074 /* SearchResultCell.swift in Sources */,
 				36EE62D62265534D00F94070 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
